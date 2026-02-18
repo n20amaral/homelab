@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  LD_SUPERUSER_NAME: bjIwYW1hcmFs
+  LD_SUPERUSER_PASSWORD: YXohUDY2SHJ0
+kind: Secret
+metadata:
+  name: linkding-creds
