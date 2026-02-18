@@ -73,6 +73,7 @@ data:
     tunnel: audiobooks 
     
     protocol: http2
+    edge-ip-version: "4"
 
     credentials-file: /etc/cloudflared/creds/credentials.json
 
