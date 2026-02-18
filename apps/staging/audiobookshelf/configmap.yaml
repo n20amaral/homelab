@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: audiobookshelf-configs
+  namespace: audiobookshelf
+data:
+  TZ: "Atlantic/Azores"
+  PORT: "3005"
