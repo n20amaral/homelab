@@ -71,6 +71,9 @@ data:
     # Name of the tunnel you want to run
     
     tunnel: audiobooks 
+    
+    edge-ip-version: 4
+    protocol: http2
 
     credentials-file: /etc/cloudflared/creds/credentials.json
 
@@ -79,7 +82,7 @@ data:
     no-autoupdate: true
 
     ingress:
-    - hostname: abs.n20.space 
+    - hostname: audiobooks.n20.space 
       service: http://audiobookshelf:3005
 
     # This rule sends traffic to the built-in hello-world HTTP server. This can help debug connectivity
